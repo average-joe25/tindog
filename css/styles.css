@@ -1,0 +1,134 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #F2E9EB;
+  font-family: "Montserrat";
+}
+h1,h2{
+  font-family: "Montserrat-Bold";
+}
+i{
+  margin-right: 1.2rem;
+}
+.pad-5{
+  padding: 5% 10% 5%;
+}
+.nav-item{
+  margin-right : 3%;
+  font-size: 1.1rem;
+}
+.heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  word-spacing: 1rem;
+  padding-bottom: 5%;
+}
+.download-buttons{
+  margin-right: 3%;
+}
+.navbar{
+  padding: 3% 13% 5%;
+}
+.title-text{
+  padding-bottom: 5%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-inner{
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+.carousel-control-prev-icon {
+    margin: 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    margin: 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.press-logo{
+  width: 15%;
+  margin-left:5%;
+}
+.card-body{
+  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.download-text{
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 5%;
+}
+.foot{
+  padding: 10% auto;
+}
+.Copyright{
+  padding-top: 3%;
+}
+#footer{
+  padding: 10%;
+  text-align: center;
+  height: 20em;
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  text-align: center;
+  padding: 5% 10% 5%;
+
+}
+#pricing {
+  padding: 100px;
+}
+#press{
+  text-align: center;
+  padding-bottom: 5%;
+}
+#phone-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#features{
+  position: relative;
+  background-color: white;
+
+}
+#Title-sec{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 0 0 5%;
+}
+#testimonial{
+  text-align: center;
+}
+#pricing{
+  background-color: white;
+}
+@media (max-width : 800px) {
+  body{
+    text-align: center;
+  }
+  #phone-img{
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
